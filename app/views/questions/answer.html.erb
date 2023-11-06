@@ -1,12 +1,12 @@
-<div class="">
+<div class="m-3">
   <h1>Stupid Coaching</h1>
-  <div>
+  <div class="alert border-dark">
     <p><%= params[:question] %></p>
-    <p>-You</p>
+    <p><i>-You</i></p>
   </div>
-  <div class="bg-warning">
+  <div class="alert alert-warning">
     <p><%= @answer %></p>
-    <p>-Your coach</p>
+    <p><i>-Your coach</i></p>
   </div>
   <p><%= link_to "Ask a new question", ask_path %></p>
 </div>
